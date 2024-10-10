@@ -25,3 +25,11 @@ EXP 2 :
 
 Implementing Faster R-CNN with ResNet-50 backbone to detect objects in the COCO dataset.
 
+Faster R-CNN with a ResNet-50 backbone is a deep learning model used for object detection.
+The model combines two primary components: **Faster R-CNN**, which is responsible for 
+detecting and classifying objects within an image, and **ResNet-50**, a pre-trained convolutional 
+neural network that acts as the feature extractor.
+The model processes input images, extracts key features using ResNet-50, proposes 
+potential object regions using a Region Proposal Network (RPN), and then classifies 
+and refines bounding boxes for detected objects. The goal is to train the model to accurately detect 
+and localize objects in unseen images.
